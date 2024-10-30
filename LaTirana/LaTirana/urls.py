@@ -23,6 +23,6 @@ urlpatterns = [
     path('libros/',views.listadoLibros),
     path('agregarLibro/',views.agregarLibro),
     path('eliminarLibro/<int:id>/', views.eliminarLibro, name='eliminarLibro'),
-    path('actualizarLibro/<int:id>/', views.actualizarLibro, name='actualizarLibro')
-
+    path('actualizarLibro/<int:id>/', views.actualizarLibro, name='actualizarLibro'),
+    path('informes/',views.informes, name='informes')
 ]

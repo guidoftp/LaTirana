@@ -38,3 +38,6 @@ def actualizarLibro(request, id):
     data = {'form': form}
     return render(request, 'Aplicacion/agregarLibro.html', data)
 
+def informes(request):
+    return render(request, 'Aplicacion/informes.html')
+
